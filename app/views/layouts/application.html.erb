@@ -1,14 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
+
   <title><%= full_title(yield(:title)) %></title>
+
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+
+  <%= render "layouts/head_meta" %>
+
 </head>
 <body>
 
+<%= render "layouts/navbar" %>
+<%= render "layouts/header" %>
+
+<section class="section_main">
 <%= yield %>
+</section>
 
 </body>
 </html>
