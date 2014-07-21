@@ -1,0 +1,20 @@
+<nav>
+  <div class="twelve columns header_nav">
+    <div class="row">
+        <ul id="menu-header" class="nav-bar horizontal">
+	  <%= nav_link "Главная",     root_path %>
+          <%= nav_link "Услуги",      '#' %>
+          <%= nav_link "Магазин",     '#' %>
+          <%= nav_link "Фотогалерея", '#' %>
+          <%= nav_link "Контакты",    contact_path %>
+        </ul>
+
+        <script type="text/javascript">
+          //<![CDATA[
+          $('ul#menu-header').nav-bar();
+          //]]>
+        </script>
+
+    </div>  
+  </div>
+</nav>
