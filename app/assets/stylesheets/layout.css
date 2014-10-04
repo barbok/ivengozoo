@@ -1,0 +1,263 @@
+body {
+	background: #3d2a1c;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 93px;
+	background: #261913;
+	padding: 0;
+	padding-top: 10px;
+	margin: 0;
+}
+
+header .container {
+
+	height: 82px;
+/*	margin: 0 auto ; */
+	padding: 5px 10px;
+	border: 1px solid #53301c;
+	border-bottom: none;
+	background: #584133;
+	background-image: -moz-linear-gradient(to top, #584133, #a67b60);
+	background-image: -webkit-linear-gradient(to top, #584133, #a67b60);
+	background-image: -o-linear-gradient(to top, #584133, #a67b60);
+	background-image: linear-gradient(to top, #584133, #a67b60);
+	border-radius: 20px 20px 0 0;
+	box-shadow: 0 0 10px;
+	z-index: 100;
+	/* gradient bg: #584133 - #492d1f*/
+}
+
+header h1 {
+	font-family: Comfortaa;
+	font-size: 2em;
+	color: #ede4db;
+	text-shadow: 1px 1px 2px black;
+	margin: 0;
+	padding: 0;
+	width: 8em;
+	display: block;
+	float: left;
+}
+
+header .contacts {
+	color: #fa9b23;
+	width: 300px;
+	font: 0.9em Georgia;
+	display: block;
+	text-shadow: 1px 1px 2px black;
+	margin: 0;
+	padding: 0;
+	padding-top: 5px;
+	float: left;
+}
+
+header span.phone {
+	display: block;
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 0;
+	font-size: 1.5em;
+}
+
+header .contacts a {
+	text-decoration: none;
+	color: #fa9b23;
+}
+
+header .contacts a:hover {
+	text-decoration: underline;
+	color: #fa9b23;
+}
+
+nav .container {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+	box-shadow: 0 0 10px;
+}
+
+nav ul {
+	border: none;
+	border-right: 1px solid #53301c;
+	border-left: 1px solid #53301c;
+	box-shadow: 0 0 10px;
+	z-index: 70;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: #ebe4d4;
+	background-image: -moz-linear-gradient(to top, #ebe4d4, #faf2e1);
+	background-image: -webkit-linear-gradient(to top, #ebe4d4, #faf2e1);
+	background-image: -o-linear-gradient(to top, #ebe4d4, #faf2e1);
+	background-image: linear-gradient(to top, #ebe4d4, #faf2e1);
+}
+
+nav ul li {
+	float: left;
+    padding: 0;
+    margin: 0;
+}
+
+nav li.separator {
+	height: 22px;
+    overflow: hidden;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	border-left: 1px solid #b9a26e;
+	border-right: 1px solid #fffcfd;
+}
+nav li > a:link, nav li > a:visited, nav li > a {
+	display: block;
+	width: 140px;
+	padding: 7px 10px;
+	font: 1em Arial;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #b05112;/*#bc5c29;*/
+	text-align: center;
+	/*text-shadow: 1px 1px 1px #b08061;*/
+    margin-right: 1px;
+}
+
+nav li > a.active {
+	background: #b39758;
+	color: black;
+}
+
+nav li > a:active, nav li > a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+#content {
+	box-shadow: 0 0 10px;
+	z-index: 50;
+	padding: 10px;
+	/*float: right; */
+	background: #25160f;
+	color: #b9a45e;
+}
+
+#content h2 {
+    text-align: center;
+}
+
+#content h2, #content h3 {
+	color: #c57111;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+#content ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;	
+}
+
+.greetings {
+	margin-top: 0px;
+}
+
+#sidebar {
+	width: 250px;
+	float: left;
+	background: #462f1f;
+	color: #fef2a0;
+	margin: 0;
+	padding: 5px 10px;
+	overflow: hidden;
+}
+
+#sidebar h3 {
+	margin-top: 15px;
+	margin-bottom: 7px;
+	margin-left: 20px;
+}
+
+#sidebar hr {
+	width: 220px;
+	height: 1px;
+	background: #2c1507;
+	border: 0;
+	border-top: 1px dotted #2c1507;
+	border-bottom: 1px solid #5f483a;
+	padding: 0;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
+
+footer .container {
+	box-shadow: 0 0 10px;
+    background: #ebe4d4;
+	border-radius: 0 0 20px 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.clearall {
+	float: none;
+	clear: both;
+}
+
+@font-face {
+    font-family: 'LigatureSymbols';
+    src: url('LigatureSymbols-2.07.eot');
+    src: url('LigatureSymbols-2.07.eot?#iefix') format('embedded-opentype'),
+         url('LigatureSymbols-2.07.woff') format('woff'),
+         url('LigatureSymbols-2.07.ttf') format('truetype'),
+         url('LigatureSymbols-2.07.svg#LigatureSymbols') format('svg');
+    src: url('LigatureSymbols-2.07.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.lsf {
+  font-family: 'LigatureSymbols';
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.lsf-icon:before {
+  content:attr(title);
+  margin-right:0.3em;
+  font-size:30px;
+  font-family: 'LigatureSymbols';
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.lsf-icon-dropcap:before {
+  content:attr(title);
+  font-size:30px;
+  font-family: 'LigatureSymbols';
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}

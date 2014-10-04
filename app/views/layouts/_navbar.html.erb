@@ -1,20 +1,17 @@
 <nav>
-  <div class="twelve columns header_nav">
-    <div class="row">
-        <ul id="menu-header" class="nav-bar horizontal">
-	  <%= nav_link "Главная",     root_path %>
-          <%= nav_link "Услуги",      '#' %>
-          <%= nav_link "Магазин",     '#' %>
-          <%= nav_link "Фотогалерея", '#' %>
-          <%= nav_link "Контакты",    contact_path %>
-        </ul>
-
-        <script type="text/javascript">
-          //<![CDATA[
-          $('ul#menu-header').nav-bar();
-          //]]>
-        </script>
-
-    </div>  
+  <div class="container">
+	<ul>
+	  <li><%= link_to "Главная", root_path, :class => ('active' if current_page?(root_path)) %></li>
+	  <li class="separator" />
+	  <li><%= link_to "Услуги", '#' %></li>
+	  <li class="separator" />
+	  <li><%= link_to "Магазин", '#' %></li>
+	  <li class="separator" />
+	  <li><%= link_to "Фотогалерея", '#' %></li>
+	  <li class="separator" />
+	  <li><%= link_to "Вакансии", '#' %></li>
+	  <li class="separator" />
+	  <li><%= link_to "Контакты", contact_path, :class => ('active' if current_page?(contact_path)) %></li>
+	</ul>
   </div>
 </nav>
