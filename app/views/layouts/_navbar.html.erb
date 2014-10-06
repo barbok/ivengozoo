@@ -5,6 +5,8 @@
 	  <li class="separator" />
 	  <li><%= link_to "Услуги", '#' %></li>
 	  <li class="separator" />
+	  <li><%= link_to "Курсы", course_path, :class => ('active' if current_page?(course_path)) %></li>
+      <li class="separator"></li>
 	  <li><%= link_to "Магазин", '#' %></li>
 	  <li class="separator" />
 	  <li><%= link_to "Фотогалерея", '#' %></li>
