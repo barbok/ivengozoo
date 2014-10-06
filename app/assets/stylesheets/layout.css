@@ -158,6 +158,19 @@ nav li > a:active, nav li > a:hover {
 	padding: 0;	
 }
 
+ul.services-list li {
+    padding-bottom: 5px;
+}
+
+ul.services-list {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+p.list-caption {
+    margin-bottom: 0;
+}
+
 .greetings {
 	margin-top: 0px;
 }
