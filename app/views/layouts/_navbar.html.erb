@@ -11,8 +11,8 @@
 	  <li class="separator" />
 	  <li><%= link_to "Фотогалерея", '#' %></li>
 	  <li class="separator" />
-	  <li><%= link_to "Вакансии", '#' %></li>
-	  <li class="separator" />
+	  <li><%= link_to "Партнеры", partner_path, :class => ('active' if current_page?(partner_path)) %></li>
+      <li class="separator"></li>
 	  <li><%= link_to "Контакты", contact_path, :class => ('active' if current_page?(contact_path)) %></li>
 	</ul>
   </div>

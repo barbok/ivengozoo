@@ -7,4 +7,7 @@ class StaticPagesController < ApplicationController
 
   def course
   end
+
+  def partner
+  end
 end
