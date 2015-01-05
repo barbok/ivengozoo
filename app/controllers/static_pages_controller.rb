@@ -5,6 +5,9 @@ class StaticPagesController < ApplicationController
   def service
   end
 
+  def sale
+  end
+
   def contact
   end
 

@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   match '/course', to: 'static_pages#course', via: 'get'
   match '/partner', to: 'static_pages#partner', via: 'get'
   match '/service', to: 'static_pages#service', via: 'get'
+  match '/sale', to: 'static_pages#sale', via: 'get'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
