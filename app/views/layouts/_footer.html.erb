@@ -1,6 +1,14 @@
+<% require 'date' %>
   <footer>
     <div class="container">
       <p class="pull-right"><a href="#">Вверх</a></p>
-      <p>&copy; 2014 зоосалон "Айвенго"</p>
+      <p class="pull-left">&copy; <%= Date.today.year %> зоосалон "Айвенго"</p>
+      <div class="snet_icons">
+	<a href="https://www.facebook.com/groups/aivengo52/">
+	  <%= image_tag("fb.png", size: "30x30", alt: "facebook") %></a>
+	<a href="http://vk.com/club76259543">
+	  <%= image_tag("vk.png", size: "30x30", alt: "vk") %></a>
+      </div>
+
     </div>
   </footer>
