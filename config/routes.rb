@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root  'static_pages#home'
   match '/contact', to: 'static_pages#contact', via: 'get'
-  match '/course', to: 'static_pages#course', via: 'get'
+  match '/course', to: 'static_pages#home', via: 'get'
   match '/partner', to: 'static_pages#partner', via: 'get'
   match '/service', to: 'static_pages#service', via: 'get'
   match '/sale', to: 'static_pages#sale', via: 'get'
