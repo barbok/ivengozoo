@@ -134,7 +134,38 @@ nav li > a:active, nav li > a:hover {
 }
 
 #news {
-    
+    margin-left: -7px;
+    background-color: #ffefb9;
+    color: #25160f;
+    border-radius: 0 10px 10px 0;
+    padding: 10px;
+    font-size: 1em;
+}
+
+#news h3.news {
+    color: #563a1c;
+    font-size: 1.4em;
+    padding-left: 0.8em;
+    margin-top: 5px;
+}
+
+#news span.date {
+    color: #563a1c;
+    display: block;
+    width: 100%;
+    text-align: right;
+    border-top: 1px solid #563a1c;
+    border-bottom: 1px solid #563a1c;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#news a,
+#news a:visited,
+#news a:hover {
+/*    color: #25160f; */
+    color: blue;
+    text-decoration: underline;
 }
 
 #content {

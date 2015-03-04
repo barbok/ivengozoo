@@ -1,14 +1,35 @@
 <% provide(:title, 'Главная') %>
 <div class="row">
-  <div class="col-xs-3" id="news">
-    <h3 class="news">Новости</h3>
-    <ul class="news">
-      <li>
-	<i class="fa fa-caret-right"></i>
-	Скидки на паучи. 
-	<%= link_to "Подробнее", sale_path(@sale, anchor: "ord_1") %>
-      </li>
-    </ul>
+  <div class="col-xs-3">
+    <div id="news">
+      <h3 class="news">Новости</h3>
+      <ul class="news">
+	<li>
+<!--	  <i class="fa fa-caret-right"></i> -->
+          <span class="date">03.03.15</span>
+	  Скидки на паучи. <br />
+	  <%= link_to "Подробнее", sale_path(@sale, anchor: "ord_1") %>
+	</li>
+	<li>
+          <span class="date">03.03.15</span>
+	  Акция! Обоработка от блох и клещей перед летним сезоном!<br />
+	  <a class="details" href="#">Подробнее</a>
+	</li>
+	<li>
+          <span class="date">05.03.15</span>
+	  Акция! Скидки на корм<br />
+	  <a class="details" href="#">Подробнее</a>
+	</li>
+	<li>
+          <span class="date">09.03.15</span>
+	  Новое поступление осенних комбинезонов<br />
+	  <a class="details" href="#">Подробнее</a>
+	</li>
+      </ul>
+    </div>
+    <div id="advert">
+      
+    </div>
   </div>
   <div class="col-xs-9">
     <h2 class="greetings">Добро пожаловать на сайт Салона красоты для животных "Айвенго"!</h2>
